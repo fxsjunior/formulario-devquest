@@ -7,7 +7,7 @@ let maxInputs = inputs.length
 botao.addEventListener('click', function(){
   
   verificarInput()
-  thnaks()
+  concuido()
 })
 
 
@@ -30,7 +30,7 @@ function verificarInput() {
   
 }
 
-function thnaks() {
+function concuido() {
 
   let teste = 0
   let formulario = document.querySelector('.container-formulario')
