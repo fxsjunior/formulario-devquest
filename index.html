@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio DevQuest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <main>
+    <section class="secao-formulario">
+      <div class="mensagem">
+        <h1 class="titulo">
+          FICOU COM DÚVIDA ?
+          <p>
+            NOS MANDE UMA MENSAGEM!
+          </p>
+        </h1>
+        <p class="texto">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <div class="container-formulario">
+        <form class="formulario">
+
+          <input type="text" name="nome" class="input " placeholder="Nome completo *">
+          <span class="invalido">campo obrigatório</span>
+
+          <input type="email" name="email" class="input " placeholder="Email *">
+          <span class="invalido">campo obrigatório</span>
+
+          <input type="tel" name="telefone" class="input " placeholder="Telefone *">
+          <span class="invalido">campo obrigatório</span>
+
+          <textarea cols="" class="input mensagem-text" rows="5" placeholder="Mensagem *"></textarea>
+          <span class="invalido">campo obrigatório</span>
+
+          <p class="aviso-obrigatorio">*Campos obrigatórios</p>
+
+          <a href="#" class="btn">Enviar</a>
+        </form>
+
+      </div>
+
+      <div class="agradecimento concluido">
+        <img src="src/img/icon-complete.svg">
+        <p>Obrigado!</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="src/js/index.js"></script>
+
+</body>
+
+</html>
